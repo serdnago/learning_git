@@ -6,7 +6,9 @@ namespace Learning_Git
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            IAnimal cat = new Cat();
+            cat.CanBreath();
+           
             //See if this works
         }
     }
